@@ -16,6 +16,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20180130</version>
+        </dependency>
+        <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>${logback.version}</version>
@@ -64,7 +69,6 @@
     </dependencies>
 
     <properties>
-        <logback.version>1.2.3</logback.version>
         <logback.contrib.version>0.1.5</logback.contrib.version>
         <docx4j.version>3.3.5</docx4j.version>
         <javax.mail.version>1.4.7</javax.mail.version>
